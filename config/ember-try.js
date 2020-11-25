@@ -25,13 +25,21 @@ module.exports = function() {
               'ember-source': '~2.16.0'
             }
           }
-        },
-        {
-          name: 'ember-lts-2.18',
-          npm: {
-            devDependencies: {
-              'ember-source': '~2.18.0'
-            }
+        }
+      },
+      {
+        name: 'ember-lts-3.20',
+        npm: {
+          devDependencies: {
+            'ember-source': '~3.20.5'
+          }
+        }
+      },
+      {
+        name: 'ember-release',
+        npm: {
+          devDependencies: {
+            'ember-source': await getChannelURL('release')
           }
         },
         {
@@ -49,13 +57,18 @@ module.exports = function() {
               'ember-source': urls[1]
             }
           }
+        }
+      },
+      {
+        name: 'ember-default-with-jquery',
+        env: {
+          EMBER_OPTIONAL_FEATURES: JSON.stringify({
+            'jquery-integration': true
+          })
         },
-        {
-          name: 'ember-canary',
-          npm: {
-            devDependencies: {
-              'ember-source': urls[2]
-            }
+        npm: {
+          devDependencies: {
+            '@ember/jquery': '^1.1.0'
           }
         },
         {

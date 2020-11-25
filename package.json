@@ -18,7 +18,7 @@
   "devDependencies": {
     "broccoli-asset-rev": "^2.7.0",
     "ember-ajax": "^3.0.0",
-    "ember-cli": "^3.18.0",
+    "ember-cli": "^3.20.2",
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-eslint": "^4.2.1",
     "ember-cli-htmlbars-inline-precompile": "^1.0.0",
@@ -33,10 +33,10 @@
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-qunit": "^4.6.0",
     "ember-resolver": "^4.0.0",
-    "ember-source": "~3.3.0",
+    "ember-source": "~3.20.2",
     "ember-source-channel-url": "^1.0.1",
     "ember-try": "^1.1.0",
-    "eslint-plugin-ember": "^5.0.0",
+    "eslint-plugin-ember": "^8.9.1",
     "eslint-plugin-node": "^6.0.1",
     "loader.js": "^4.0.10",
     "qunit-dom": "^0.8.2"
@@ -57,9 +57,9 @@
     "test": "tests"
   },
   "dependencies": {
-    "ember-auto-import": "^1.5.3",
-    "ember-cli-babel": "^6.6.0",
-    "ember-cli-htmlbars": "^2.0.1",
+    "ember-auto-import": "^1.6.0",
+    "ember-cli-babel": "^7.21.0",
+    "ember-cli-htmlbars": "^5.2.0",
     "file-saver": "^2.0.2",
     "xlsx": "^0.9.13"
   },
